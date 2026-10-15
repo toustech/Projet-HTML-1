@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Mouhamadou NDIAYE, informaticien">
+  <title>Portfolio | Mouhamadou NDIAYE</title>
+</head>
+<body>
+
+  <!-- ===== EN-TÊTE ET BARRE DE NAVIGATION ===== -->
+  <header id="accueil">
+    <h1>Mouhamadou NDIAYE</h1>
+    <p>Informaticien | Réseaux, Développement Web et SIG</p>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#a-propos">À propos</a></li>
+        <li><a href="#experience">Expérience professionnelle</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== À PROPOS ===== -->
+    <section id="a-propos">
+      <h2>À propos</h2>
+      <article>
+        <figure>
+          <img src="photo.jpg" alt="Photo de Mouhamadou NDIAYE" width="200">
+          <figcaption>Mouhamadou NDIAYE, Dakar</figcaption>
+        </figure>
+        <p>
+          Je suis informaticien à la <strong>Direction des Statistiques et des Systèmes
+          d'Information (DSSI)</strong> du Ministère des Infrastructures du Sénégal.
+          Je travaille sur l'administration réseau, les serveurs Linux, la téléphonie IP,
+          le développement web et les systèmes d'information géographique.
+        </p>
+        <h3>Ma présentation en vidéo</h3>
+        <video width="480" controls>
+          <source src="presentation.mp4" type="video/mp4">
+          Votre navigateur ne prend pas en charge la vidéo.
+        </video>
+        <h3>Mon message audio</h3>
+        <audio controls>
+          <source src="message.mp3" type="audio/mpeg">
+          Votre navigateur ne prend pas en charge l'audio.
+        </audio>
+      </article>
+    </section>
+
+    <!-- ===== EXPÉRIENCE PROFESSIONNELLE ===== -->
+    <section id="experience">
+      <h2>Expérience professionnelle</h2>
+      <article>
+        <h3>Informaticien, DSSI – Ministère des Infrastructures</h3>
+        <ul>
+          <li>Administration du réseau et du pare-feu FortiGate</li>
+          <li>Gestion des serveurs Linux (Ubuntu) et des sauvegardes</li>
+          <li>Administration de la téléphonie IP (Grandstream, Alcatel)</li>
+          <li>Développement d'applications web internes (PHP/MySQL)</li>
+          <li>Cartographie et SIG (Leaflet.js)</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Fondateur, Tous Tech Services et Solutions (2TS)</h3>
+        <ul>
+          <li>Fourniture de matériel informatique</li>
+          <li>Intégration de solutions de téléphonie IP</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- ===== CV ===== -->
+    <section id="cv">
+      <h2>CV</h2>
+      <h3>Compétences</h3>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Domaine</th>
+            <th>Outils et technologies</th>
+            <th>Niveau</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Réseau et sécurité</td>
+            <td>FortiGate, VLAN, VPN</td>
+            <td>Avancé</td>
+          </tr>
+          <tr>
+            <td>Systèmes</td>
+            <td>Ubuntu Server, HP ProLiant</td>
+            <td>Avancé</td>
+          </tr>
+          <tr>
+            <td>Développement web</td>
+            <td>HTML, CSS, PHP, MySQL, Git</td>
+            <td>Intermédiaire</td>
+          </tr>
+          <tr>
+            <td>SIG</td>
+            <td>Leaflet.js, QGIS</td>
+            <td>Intermédiaire</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Formations</h3>
+      <ol>
+        <li>Développement Web – GoMyCode (en cours)</li>
+        <li>Cybersécurité – TryHackMe (en cours)</li>
+        <li>Préparation à la certification Fortinet NSE4</li>
+      </ol>
+
+      <p><a href="C:\Users\HP\Downloads\CV Professionnel MOUHAMADOU NDIAYE.pdf" download>Télécharger mon CV (PDF)</a></p>
+    </section>
+
+    <!-- ===== CONTACT (FORMULAIRE) ===== -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Envoyez-moi un message</legend>
+
+          <p>
+            <label for="nom">Nom complet</label><br>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+          </p>
+
+          <p>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="email" placeholder="exemple@mail.com" required>
+          </p>
+
+          <p>
+            <label for="sujet">Sujet</label><br>
+            <select id="sujet" name="sujet">
+              <option value="projet">Proposition de projet</option>
+              <option value="emploi">Offre d'emploi</option>
+              <option value="autre">Autre</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" placeholder="Votre message" required></textarea>
+          </p>
+
+          <p>
+            <label>
+              <input type="checkbox" name="copie"> Recevoir une copie du message
+            </label>
+          </p>
+
+          <button type="submit">Envoyer</button>
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===== PIED DE PAGE ===== -->
+  <footer>
+    <p>&copy; 2026 Mouhamadou NDIAYE – Tous droits réservés</p>
+    <p>
+      <a href="https://github.com/toustech" target="_blank">GitHub</a> |
+      <a href="mailto:paye2ndiaye@gmail.com">paye2ndiaye@gmail.com</a> |
+      <a href="#accueil">Retour en haut</a>
+    </p>
+  </footer>
+
+</body>
+</html>
